@@ -22,6 +22,7 @@ Runs 100% locally on **Windows, macOS and Linux** — or 24/7 on a cheap VPS. A 
 - [Trading Strategies](#trading-strategies)
 - [Risk Management & Safety](#risk-management--safety)
 - [Paper Trading & Backtesting](#paper-trading--backtesting)
+- [Dashboard Overview](#dashboard-overview)
 - [Web Interface](#web-interface)
 - [Installation & Quick Start](#installation--quick-start)
 - [Project Structure](#project-structure)
@@ -90,6 +91,16 @@ Built-in **crypto risk management** on every bot:
 - **Paper trading simulator** — bots trade against **real live prices** with a virtual balance: maker/taker fees, slippage, post-only, partial fills and perp positions are fully simulated. Every trade appears as a chart marker with details.
 - **Crypto backtesting engine** — replay **Grid** and **DCA** strategies on real historical candles and get ROI, APR, **max drawdown**, fee impact, and a full trade list with on-chart markers.
 - Same strategy code runs in paper and live — flip the account to live, add API keys, and the identical bot trades real funds.
+
+## Dashboard Overview
+
+Watch the **crypto trading bot dashboard** in action — equity, PnL, live bots, candlestick chart with grid levels and trade markers, order book depth and the no-code bot wizard:
+
+[▶ Watch the full demo — demo.mp4](demo.mp4)
+
+<!-- Placeholder for an inline player once the video is hosted (GitHub strips raw <video> from READMEs):
+<video src="demo.mp4" controls></video>
+-->
 
 ## Web Interface
 
