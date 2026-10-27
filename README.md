@@ -37,18 +37,18 @@ Unified exchange abstraction via **ccxt** (REST) with a ccxt.pro-ready architect
 
 | Exchange | Markets | Popular With | Notes |
 |---|---|---|---|
-| **Coinbase** | Spot | 🇺🇸 USA | US-regulated exchange, top pick for US traders; quick API-key connect with one-click connection test |
-| **Kraken** | Spot | 🇺🇸 USA · 🇪🇺 EU | US-regulated & EU-friendly venue, strong EUR/USD pairs |
-| **Binance** | Spot + USDT-M Perps | 🌍 Global | Highest liquidity; BTC, ETH and hundreds of altcoin pairs |
-| **OKX** | Spot + USDT-M Perps | 🇪🇺 EU · 🌏 Asia | Deep order books, popular worldwide |
-| **Bybit** | Spot + USDT-M Perps | 🇪🇺 EU · 🌏 Asia | Futures-first exchange |
-| **Bitget** | Spot + USDT-M Perps | 🌏 Asia | Copy-trading hub |
-| **Gate.io** | Spot + USDT-M Perps | 🌏 Asia | Wide altcoin coverage |
-| **KuCoin** | Spot + USDT-M Perps | 🌏 Asia | Popular Asia-Pacific venue |
-| **MEXC** | Spot + USDT-M Perps | 🌏 Asia | Large altcoin listing count |
-| **HTX (Huobi)** | Spot + USDT-M Perps | 🌏 Asia | Legacy Asian liquidity |
-| **Hyperliquid** | Perp DEX (native `hyperliquid-python-sdk`, ccxt fallback) | 🌍 Global | On-chain perps, no KYC, API-wallet auth |
-| **dYdX v4** | Perp DEX (native `dydx-v4-client`) | 🌍 Global | Decentralized perps, mnemonic auth |
+| **Coinbase** | Spot | US-regulated exchange, top pick for US traders; quick API-key connect with one-click connection test |
+| **Kraken** | Spot | US-regulated & EU-friendly venue, strong EUR/USD pairs |
+| **Binance** | Spot + USDT-M Perps | Highest liquidity; BTC, ETH and hundreds of altcoin pairs |
+| **OKX** | Spot + USDT-M Perps | Deep order books, popular worldwide |
+| **Bybit** | Spot + USDT-M Perps | Futures-first exchange |
+| **Bitget** | Spot + USDT-M Perps | Copy-trading hub |
+| **Gate.io** | Spot + USDT-M Perps | Wide altcoin coverage |
+| **KuCoin** | Spot + USDT-M Perps | Popular Asia-Pacific venue |
+| **MEXC** | Spot + USDT-M Perps | Large altcoin listing count |
+| **HTX (Huobi)** | Spot + USDT-M Perps | Legacy Asian liquidity |
+| **Hyperliquid** | Perp DEX (native `hyperliquid-python-sdk`, ccxt fallback) | On-chain perps, no KYC, API-wallet auth |
+| **dYdX v4** | Perp DEX (native `dydx-v4-client`) | Decentralized perps, mnemonic auth |
 
 API keys are entered locally (Dashboard → **Exchange Config** or the Accounts page) and tested with a one-click connection check. US, EU and Asian traders should always confirm the exchange's availability and licensing in their own jurisdiction.
 
