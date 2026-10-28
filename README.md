@@ -1,8 +1,16 @@
 # CEXTrader — Free Open-Source Crypto Trading Bot (Grid Bot + DCA Bot) for Binance, Coinbase, Kraken, Bybit, OKX & 12+ Exchanges
 
+![CEXTrader banner — free open-source crypto trading bot with grid bot, DCA bot, backtesting and paper trading for Binance, Coinbase, Kraken, Bybit, OKX](banner.jpg)
+
 **CEXTrader** is a free, self-hosted **automated crypto trading bot** with a **grid trading bot**, **DCA bot (dollar-cost averaging)**, **momentum**, **VWAP** and **adaptive market-regime** strategies for **spot** and **USDT-M perpetual futures** — BTC, ETH, SOL, XRP, DOGE and hundreds of altcoin pairs on Binance, Coinbase, Kraken, Bybit, OKX, Bitget, Gate.io, KuCoin, MEXC, HTX, **Hyperliquid** and **dYdX v4**. Built with **Python (FastAPI)** and a dark minimal **no-code web dashboard** — no subscription, no cloud, **API keys stay on your machine**. Includes **paper trading** (simulated live-market trading), **crypto backtesting** on real candles, live **order book** depth, and a full **risk management** layer (stop-loss, take-profit, trailing TP, kill-switch).
 
 Runs 100% locally on **Windows, macOS and Linux** — or 24/7 on a cheap VPS. A self-hosted alternative to subscription bot platforms: your bot, your server, your keys, your profits.
+
+## Dashboard Overview
+
+![CEXTrader demo — automated crypto trading bot dashboard with grid bot, DCA bot, live candlestick chart, order book and PnL](demo.gif)
+
+*Dashboard overview: total equity, PnL, live bots, candlestick chart with grid levels and trade markers, order book depth and the no-code bot wizard.*
 
 ## Why CEXTrader?
 
@@ -22,7 +30,6 @@ Runs 100% locally on **Windows, macOS and Linux** — or 24/7 on a cheap VPS. A 
 - [Trading Strategies](#trading-strategies)
 - [Risk Management & Safety](#risk-management--safety)
 - [Paper Trading & Backtesting](#paper-trading--backtesting)
-- [Dashboard Overview](#dashboard-overview)
 - [Web Interface](#web-interface)
 - [Installation & Quick Start](#installation--quick-start)
 - [Project Structure](#project-structure)
@@ -91,16 +98,6 @@ Built-in **crypto risk management** on every bot:
 - **Paper trading simulator** — bots trade against **real live prices** with a virtual balance: maker/taker fees, slippage, post-only, partial fills and perp positions are fully simulated. Every trade appears as a chart marker with details.
 - **Crypto backtesting engine** — replay **Grid** and **DCA** strategies on real historical candles and get ROI, APR, **max drawdown**, fee impact, and a full trade list with on-chart markers.
 - Same strategy code runs in paper and live — flip the account to live, add API keys, and the identical bot trades real funds.
-
-## Dashboard Overview
-
-Watch the **crypto trading bot dashboard** in action — equity, PnL, live bots, candlestick chart with grid levels and trade markers, order book depth and the no-code bot wizard:
-
-[▶ Watch the full demo — demo.mp4](demo.mp4)
-
-<!-- Placeholder for an inline player once the video is hosted (GitHub strips raw <video> from READMEs):
-<video src="demo.mp4" controls></video>
--->
 
 ## Web Interface
 
