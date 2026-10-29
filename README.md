@@ -2,7 +2,7 @@
 
 ![CEXTrader banner — free open-source crypto trading bot with grid bot, DCA bot, backtesting and paper trading for Binance, Coinbase, Kraken, Bybit, OKX](banner.jpg)
 
-**CEXTrader** is a free, self-hosted **automated crypto trading bot** with a **grid trading bot**, **DCA bot (dollar-cost averaging)**, **momentum**, **VWAP** and **adaptive market-regime** strategies for **spot** and **USDT-M perpetual futures** — BTC, ETH, SOL, XRP, DOGE and hundreds of altcoin pairs on Binance, Coinbase, Kraken, Bybit, OKX, Bitget, Gate.io, KuCoin, MEXC, HTX, **Hyperliquid** and **dYdX v4**. Built with **Python (FastAPI)** and a dark minimal **no-code web dashboard** - no subscription, no cloud, **API keys stay on your machine**. Includes **paper trading** (simulated live-market trading), **crypto backtesting** on real candles, live **order book** depth, and a full **risk management** layer (stop-loss, take-profit, trailing TP, kill-switch).
+**CEXTrader** is a free, self-hosted **automated crypto trading bot** with a **grid trading bot**, **DCA bot (dollar-cost averaging)**, **momentum**, **VWAP** and **adaptive market-regime** strategies for **spot** and **USDT-M perpetual futures** - BTC, ETH, SOL, XRP, DOGE and hundreds of altcoin pairs on Binance, Coinbase, Kraken, Bybit, OKX, Bitget, Gate.io, KuCoin, MEXC, HTX, **Hyperliquid** and **dYdX v4**. Built with **Python (FastAPI)** and a dark minimal **no-code web dashboard** - no subscription, no cloud, **API keys stay on your machine**. Includes **paper trading** (simulated live-market trading), **crypto backtesting** on real candles, live **order book** depth, and a full **risk management** layer (stop-loss, take-profit, trailing TP, kill-switch).
 
 Runs 100% locally on **Windows, macOS and Linux** - or 24/7 on a cheap VPS. A self-hosted alternative to subscription bot platforms: your bot, your server, your keys, your profits.
 
@@ -71,7 +71,7 @@ Base order (% or fixed quote), configurable **safety orders** with deviation ste
 ### Combo Bot - Grid + DCA on one pair
 Runs **grid trading and DCA simultaneously** on the same market with a split budget — for portfolios that want both ranging income and dip accumulation.
 
-### Momentum Bot — EMA crossover trend following
+### Momentum Bot - EMA crossover trend following
 Entries on fast/slow **EMA crossover**, volume filter (vs moving average) and **RSI filter**, SL/TP with trailing after the TP zone, exit on opposite cross, max hold time, cooldown, long or short. A classic **swing trading bot** for trending phases.
 
 ### VWAP Bot - mean reversion & reclaim strategies
