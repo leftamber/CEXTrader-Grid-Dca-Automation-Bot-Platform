@@ -1,10 +1,10 @@
-# CEXTrader — Free Open-Source Crypto Trading Bot (Grid Bot + DCA Bot) for Binance, Coinbase, Kraken, Bybit, OKX & 12+ Exchanges
+# CEXTrader - Free Open-Source Crypto Trading Bot (Grid Bot + DCA Bot) for Binance, Coinbase, Kraken, Bybit, OKX & 12+ Exchanges
 
 ![CEXTrader banner — free open-source crypto trading bot with grid bot, DCA bot, backtesting and paper trading for Binance, Coinbase, Kraken, Bybit, OKX](banner.jpg)
 
-**CEXTrader** is a free, self-hosted **automated crypto trading bot** with a **grid trading bot**, **DCA bot (dollar-cost averaging)**, **momentum**, **VWAP** and **adaptive market-regime** strategies for **spot** and **USDT-M perpetual futures** — BTC, ETH, SOL, XRP, DOGE and hundreds of altcoin pairs on Binance, Coinbase, Kraken, Bybit, OKX, Bitget, Gate.io, KuCoin, MEXC, HTX, **Hyperliquid** and **dYdX v4**. Built with **Python (FastAPI)** and a dark minimal **no-code web dashboard** — no subscription, no cloud, **API keys stay on your machine**. Includes **paper trading** (simulated live-market trading), **crypto backtesting** on real candles, live **order book** depth, and a full **risk management** layer (stop-loss, take-profit, trailing TP, kill-switch).
+**CEXTrader** is a free, self-hosted **automated crypto trading bot** with a **grid trading bot**, **DCA bot (dollar-cost averaging)**, **momentum**, **VWAP** and **adaptive market-regime** strategies for **spot** and **USDT-M perpetual futures** — BTC, ETH, SOL, XRP, DOGE and hundreds of altcoin pairs on Binance, Coinbase, Kraken, Bybit, OKX, Bitget, Gate.io, KuCoin, MEXC, HTX, **Hyperliquid** and **dYdX v4**. Built with **Python (FastAPI)** and a dark minimal **no-code web dashboard** - no subscription, no cloud, **API keys stay on your machine**. Includes **paper trading** (simulated live-market trading), **crypto backtesting** on real candles, live **order book** depth, and a full **risk management** layer (stop-loss, take-profit, trailing TP, kill-switch).
 
-Runs 100% locally on **Windows, macOS and Linux** — or 24/7 on a cheap VPS. A self-hosted alternative to subscription bot platforms: your bot, your server, your keys, your profits.
+Runs 100% locally on **Windows, macOS and Linux** - or 24/7 on a cheap VPS. A self-hosted alternative to subscription bot platforms: your bot, your server, your keys, your profits.
 
 ## Dashboard Overview
 
@@ -14,15 +14,15 @@ Runs 100% locally on **Windows, macOS and Linux** — or 24/7 on a cheap VPS. A 
 
 ## Why CEXTrader?
 
-- **Free crypto trading bot** — no subscription, no profit cut, no cloud account.
-- **Self-hosted & private** — trades only through your own exchange API keys; nothing is sent to third-party services.
+- **Free crypto trading bot** - no subscription, no profit cut, no cloud account.
+- **Self-hosted & private** - trades only through your own exchange API keys; nothing is sent to third-party services.
 - **6 bot types in one terminal**: Grid, DCA, Combo (Grid + DCA), Momentum, VWAP, Adaptive — more strategies than most paid **bitcoin trading bot** platforms.
-- **Spot + USDT-M perpetual futures** — long, short and hedged setups with leverage control.
-- **12+ exchanges via one interface** — Coinbase, Kraken, Binance, OKX, Bybit, Bitget, Gate.io, KuCoin, MEXC, HTX, Hyperliquid, dYdX.
-- **Paper trading simulator** with virtual balance — test any **altcoin trading bot** setup against real live prices with zero risk.
-- **Backtesting engine** — ROI, APR, max drawdown, fee-aware trade list on real candle data.
-- **No-code bot builder** — 5-step wizard for beginners, plus an **Expert JSON editor** for advanced quants.
-- **Multi-bot, multi-exchange** — run unlimited bots in parallel across different pairs, markets and accounts.
+- **Spot + USDT-M perpetual futures** - long, short and hedged setups with leverage control.
+- **12+ exchanges via one interface** - Coinbase, Kraken, Binance, OKX, Bybit, Bitget, Gate.io, KuCoin, MEXC, HTX, Hyperliquid, dYdX.
+- **Paper trading simulator** with virtual balance - test any **altcoin trading bot** setup against real live prices with zero risk.
+- **Backtesting engine** - ROI, APR, max drawdown, fee-aware trade list on real candle data.
+- **No-code bot builder** - 5-step wizard for beginners, plus an **Expert JSON editor** for advanced quants.
+- **Multi-bot, multi-exchange** - run unlimited bots in parallel across different pairs, markets and accounts.
 
 ## Table of Contents
 
@@ -62,22 +62,22 @@ API keys are entered locally (Dashboard → **Exchange Config** or the Accounts 
 
 ## Trading Strategies
 
-### Grid Trading Bot — automated grid trading for ranging markets
+### Grid Trading Bot - automated grid trading for ranging markets
 Arithmetic and **geometric grid** with neutral/long/short grid modes. Budget-split, fixed-quote and fixed-qty level sizing, fee-buffered step spacing, **post-only (ALO) maker orders**, infinity-rebuild when price exits the range (or hold/stop), **inventory skew** rebalancing, sell-from-inventory starts, **stop-loss** with inventory liquidation, realized-PnL take-profit, and max inventory limits. The classic **spot scalping grid** and **futures grid bot** in one engine — for BTC, ETH, SOL, XRP or any pair with enough volatility.
 
-### DCA Bot — dollar-cost averaging with martingale safety orders
+### DCA Bot - dollar-cost averaging with martingale safety orders
 Base order (% or fixed quote), configurable **safety orders** with deviation step scaling (**martingale step**) and **volume scaling**, take-profit from average entry price (+ **trailing take-profit**), stop-loss, **short mode**, cooldown between cycles, max active cycles, higher-timeframe **trend filter (EMA/RSI)**, market or limit safety orders. The full **DCA crypto bot** toolkit for accumulating dips on BTC, ETH and altcoins.
 
-### Combo Bot — Grid + DCA on one pair
+### Combo Bot - Grid + DCA on one pair
 Runs **grid trading and DCA simultaneously** on the same market with a split budget — for portfolios that want both ranging income and dip accumulation.
 
 ### Momentum Bot — EMA crossover trend following
 Entries on fast/slow **EMA crossover**, volume filter (vs moving average) and **RSI filter**, SL/TP with trailing after the TP zone, exit on opposite cross, max hold time, cooldown, long or short. A classic **swing trading bot** for trending phases.
 
-### VWAP Bot — mean reversion & reclaim strategies
+### VWAP Bot - mean reversion & reclaim strategies
 Rolling **VWAP** (windowed or anchored) with two modes: **mean-reversion** (enter on deviation, exit at VWAP) and **reclaim** (enter on VWAP reclaim with EMA/volume confirmation), take-profit, stop-loss, short mode, daily trade limit, cooldown.
 
-### Adaptive Bot — automatic market-regime switching
+### Adaptive Bot - automatic market-regime switching
 **RegimeDetector** using **ADX/DMI, ATR% and Bollinger Band width** classifies the market: ranging → Grid + DCA; trending up/down → Momentum; high volatility → stand aside (or continue). The grid can keep running in trends (**accelerator mode**). Module budgets are set as percentages — a **hands-off adaptive trading bot**.
 
 ## Risk Management & Safety
@@ -95,18 +95,18 @@ Built-in **crypto risk management** on every bot:
 
 ## Paper Trading & Backtesting
 
-- **Paper trading simulator** — bots trade against **real live prices** with a virtual balance: maker/taker fees, slippage, post-only, partial fills and perp positions are fully simulated. Every trade appears as a chart marker with details.
-- **Crypto backtesting engine** — replay **Grid** and **DCA** strategies on real historical candles and get ROI, APR, **max drawdown**, fee impact, and a full trade list with on-chart markers.
-- Same strategy code runs in paper and live — flip the account to live, add API keys, and the identical bot trades real funds.
+- **Paper trading simulator** - bots trade against **real live prices** with a virtual balance: maker/taker fees, slippage, post-only, partial fills and perp positions are fully simulated. Every trade appears as a chart marker with details.
+- **Crypto backtesting engine** - replay **Grid** and **DCA** strategies on real historical candles and get ROI, APR, **max drawdown**, fee impact, and a full trade list with on-chart markers.
+- Same strategy code runs in paper and live - flip the account to live, add API keys, and the identical bot trades real funds.
 
 ## Web Interface
 
-- **Dashboard** — total equity, PnL, active bots, live event feed + **Exchange Config** for fast API-key and paper-account onboarding.
-- **Bots** — bot cards with status/PnL + a **5-step no-code wizard** (type → account/pair (spot or perp, live account can be added inline) → all strategy parameters → risk → JSON review). 6 types: Grid, DCA, Combo, Momentum, VWAP, Adaptive.
-- **Bot Detail** — custom **canvas candlestick chart** with grid levels (buy/sell), DCA AVG/TP/SL lines, hoverable **trade markers**, live **order book** panel with depth bars and spread in bps, and tabs: Orders / Trades / DCA Cycles / Logs / Settings. Adaptive bots show the current market regime (ADX, ATR%, BB width).
-- **Backtest** — configure → statistics + equity chart with trade markers + trades table.
-- **Accounts** — paper/live accounts, connection test, editable balances.
-- **Logs** — filterable stream of all events.
+- **Dashboard** - total equity, PnL, active bots, live event feed + **Exchange Config** for fast API-key and paper-account onboarding.
+- **Bots** - bot cards with status/PnL + a **5-step no-code wizard** (type → account/pair (spot or perp, live account can be added inline) → all strategy parameters → risk → JSON review). 6 types: Grid, DCA, Combo, Momentum, VWAP, Adaptive.
+- **Bot Detail** - custom **canvas candlestick chart** with grid levels (buy/sell), DCA AVG/TP/SL lines, hoverable **trade markers**, live **order book** panel with depth bars and spread in bps, and tabs: Orders / Trades / DCA Cycles / Logs / Settings. Adaptive bots show the current market regime (ADX, ATR%, BB width).
+- **Backtest** - configure → statistics + equity chart with trade markers + trades table.
+- **Accounts** - paper/live accounts, connection test, editable balances.
+- **Logs** - filterable stream of all events.
 
 ## Installation & Quick Start
 
